@@ -1,0 +1,101 @@
+body{
+  margin:0px;
+  max-width:1300px;
+  padding:1em;
+  background:url(http://subtlepatterns.com/patterns/school.png);
+}
+
+article#wholepage{
+  position:relative;
+}
+
+.left{
+position: absolute;
+  left: 0px;
+  width: 600px;
+  padding:1em;
+}
+
+.head h1{
+  font-size:3em;
+  color:rgb(13,71,69);
+  font-family: "malgun gothic", simhei;
+  font-weight: bold;
+  background-color:rgb(56,117,115);
+  max-width:600px;
+  padding:1em;
+  margin:0px auto;
+  text-align: center;
+}
+
+.description {
+    background-color:rgb(190,91,94);
+    max-width:600px;
+    padding:0.5em;
+    color:rgb(116,21,23);
+   display:block;
+}
+
+.description h3{
+  font-size:1em;
+  color:rgb(116,21,23);
+  font-family: "malgun gothic", simhei;
+  font-weight: bold;
+}
+
+.description p, .description ol{
+  font-size:1em;
+  color:rgb(253,198,199);
+  font-family: "malgun gothic", simhei;
+}
+
+.sidepic{
+  padding:1em;
+  margin-left: 700px;
+  text-align: center;
+}
+
+.sidepic p,.sidepic h3{
+  margin:0px auto;
+  background-color:rgb(13,71,69);
+}
+
+.sidepic p{
+  font-size:1em;
+  color:rgb(143, 210, 155);
+  font-family: "malgun gothic", simhei;
+}
+
+.sidepic h3{
+  padding:1em 0px;
+    font-size:1.5em;
+  color:rgb(143, 210, 155);
+  font-family: "malgun gothic", simhei;
+}
+
+.linking{
+  font-size:1.5em;
+  font-family: "malgun gothic", simhei;
+  background-color:rgb(116,21,23);
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  
+}
+a:link{
+  text-decoration: none;
+  color: rgb(237, 177, 122);
+}
+a:visited{
+  
+  color: rgb(236, 182, 197);
+}
+a:hover{
+  text-decoration: underline;
+  color: rgb(124, 173, 180);
+}
+a:active{
+  color: rgb(255, 60, 60);
+}
